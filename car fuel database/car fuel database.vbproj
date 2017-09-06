@@ -105,6 +105,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="addcarForm.Designer.vb">
+      <DependentUpon>addcarForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="addcarForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="mainForm.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -130,6 +136,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="addcarForm.resx">
+      <DependentUpon>addcarForm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="mainForm.resx">
       <DependentUpon>mainForm.vb</DependentUpon>
     </EmbeddedResource>

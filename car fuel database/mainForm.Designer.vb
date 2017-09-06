@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class mainForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,14 +20,12 @@ Partial Class mainForm
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AddToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CardToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EditToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExpenseToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator()
@@ -36,8 +34,6 @@ Partial Class mainForm
         Me.ToolStripSeparator4 = New System.Windows.Forms.ToolStripSeparator()
         Me.MailingListToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AbouToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AddBalanceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AddCardToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -58,7 +54,7 @@ Partial Class mainForm
         'MenuStrip1
         '
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.AddToolStripMenuItem, Me.EditToolStripMenuItem, Me.AbouToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.EditToolStripMenuItem, Me.AbouToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(1238, 33)
@@ -75,22 +71,8 @@ Partial Class mainForm
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(123, 30)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(210, 30)
         Me.ExitToolStripMenuItem.Text = "Exit"
-        '
-        'AddToolStripMenuItem
-        '
-        Me.AddToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CardToolStripMenuItem})
-        Me.AddToolStripMenuItem.Name = "AddToolStripMenuItem"
-        Me.AddToolStripMenuItem.Size = New System.Drawing.Size(58, 29)
-        Me.AddToolStripMenuItem.Text = "Add"
-        '
-        'CardToolStripMenuItem
-        '
-        Me.CardToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AddBalanceToolStripMenuItem, Me.AddCardToolStripMenuItem})
-        Me.CardToolStripMenuItem.Name = "CardToolStripMenuItem"
-        Me.CardToolStripMenuItem.Size = New System.Drawing.Size(210, 30)
-        Me.CardToolStripMenuItem.Text = "Card"
         '
         'EditToolStripMenuItem
         '
@@ -113,7 +95,7 @@ Partial Class mainForm
         'CardToolStripMenuItem1
         '
         Me.CardToolStripMenuItem1.Name = "CardToolStripMenuItem1"
-        Me.CardToolStripMenuItem1.Size = New System.Drawing.Size(181, 30)
+        Me.CardToolStripMenuItem1.Size = New System.Drawing.Size(210, 30)
         Me.CardToolStripMenuItem1.Text = "Car"
         '
         'CardToolStripMenuItem2
@@ -139,18 +121,6 @@ Partial Class mainForm
         Me.AbouToolStripMenuItem.Name = "AbouToolStripMenuItem"
         Me.AbouToolStripMenuItem.Size = New System.Drawing.Size(74, 29)
         Me.AbouToolStripMenuItem.Text = "About"
-        '
-        'AddBalanceToolStripMenuItem
-        '
-        Me.AddBalanceToolStripMenuItem.Name = "AddBalanceToolStripMenuItem"
-        Me.AddBalanceToolStripMenuItem.Size = New System.Drawing.Size(210, 30)
-        Me.AddBalanceToolStripMenuItem.Text = "Add Balance"
-        '
-        'AddCardToolStripMenuItem
-        '
-        Me.AddCardToolStripMenuItem.Name = "AddCardToolStripMenuItem"
-        Me.AddCardToolStripMenuItem.Size = New System.Drawing.Size(210, 30)
-        Me.AddCardToolStripMenuItem.Text = "Add Card"
         '
         'mainForm
         '
@@ -179,8 +149,6 @@ Partial Class mainForm
     Friend WithEvents FileToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AbouToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents AddToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents CardToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents EditToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ExpenseToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents CardToolStripMenuItem1 As ToolStripMenuItem
@@ -188,6 +156,4 @@ Partial Class mainForm
     Friend WithEvents CardToolStripMenuItem2 As ToolStripMenuItem
     Friend WithEvents ToolStripSeparator4 As ToolStripSeparator
     Friend WithEvents MailingListToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents AddBalanceToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents AddCardToolStripMenuItem As ToolStripMenuItem
 End Class
