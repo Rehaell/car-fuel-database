@@ -1,6 +1,6 @@
-﻿Imports System.Diagnostics
-Imports System.Data.SQLite
-Imports System.IO
+﻿Imports System.Data.SQLite
+
+
 Module auxFunctions
 
     Public Function OpenSQLiteConn(dbLocation As String)
@@ -17,6 +17,7 @@ Module auxFunctions
         Catch ex As Exception
             Log(ex.Message)
         End Try
+        Return 0
     End Function
 
     Public Function Log(text As String)
